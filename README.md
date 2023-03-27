@@ -76,8 +76,10 @@ The dataset is available in tensorflow datasets: https://www.tensorflow.org/data
 
 
 # Summary of Findings
+In our experiment Transposed convolution achieved better results than the default Sub pixel convoluion method. But it takes more time to train. Interestingly with only 2 residual blocks the simple Upsampling2D method achieved very good results in terms of both time and quality.
 
-INSERT TABLE
+
+<img src="./images/result.JPG" width="800" />
 
 
 # Reference Notebook:
