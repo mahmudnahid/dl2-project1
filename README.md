@@ -2,6 +2,7 @@
 
 ## Project: Analyze Residual Blocks & Upsampling Blocks for Enhanced Deep Residual Networks
 
+#### Github Pages Link: https://mahmudnahid.github.io/dl2-project1/
 
 ### Team Members:
 - Khandaker Nahid Mahmud (101427435)
