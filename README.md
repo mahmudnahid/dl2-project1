@@ -22,6 +22,8 @@ In this project we implement the base single-scale model proposed in the paper a
 
 The EDSR architecture is based on the SRResNet architecture and consists of multiple residual blocks. It uses constant  scaling layers instead of batch normalization layers to produce consistent results.
 
+<img src="https://raw.githubusercontent.com/mahmudnahid/dl2-project1/main/images/edsr.jpg" width="500" />
+
 The residual block design of EDSR also differs from that of ResNet. Batch normalization layers have been removed (together with the final ReLU activation), since batch normalization layers normalize the features, they hurt output value range flexibility. It is thus better to remove them. Further, it also helps to reduce the amount of GPU RAM required by the model, since the batch normalization layers consume the same amount of memory as the preceding convolutional layers.
 
 Reference: https://sh-tsang.medium.com/review-edsr-mdsr-enhanced-deep-residual-networks-for-single-image-super-resolution-super-4364f3b7f86f
